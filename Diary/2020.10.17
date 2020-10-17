@@ -1,0 +1,7 @@
+Chapter 7
+member function:
+  const Screen &display(std::ostream &os) const
+                       {do_display(os); return *this;}
+Note: the first const means this function return a reference to the const object of class Screen
+      the second const means the implicit parameter "this" in parameters list has type of const, which means this function can not change the members of this Object, except the member is mutable.
+      
