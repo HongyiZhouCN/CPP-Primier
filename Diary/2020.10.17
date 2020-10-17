@@ -5,3 +5,5 @@ member function:
 Note: the first const means this function return a reference to the const object of class Screen
       the second const means the implicit parameter "this" in parameters list has type of const, which means this function can not change the members of this Object, except the member is mutable.
       
+A mutable member is a data member that is never const; it's value may be changed inside a const member function.
+A static member can be either function or data; static members exist independently of the objects of the class type.
